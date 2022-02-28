@@ -1,0 +1,20 @@
+name: myenv
+channels:
+  - conda-forge
+dependencies:
+  - pangeo-notebook==2022.02.04
+  - xarray
+  - hvplot
+  - gcsfs
+  - intake
+  - intake-xarray
+  - zarr
+  - cartopy
+  - cmocean
+  - scikit-learn
+  - seaborn
+  - dask-ml
+  - argopy
+  - pip
+  - pip:
+    - git+http://github.com/euroargodev/OSnet-GulfStream.git
