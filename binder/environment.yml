@@ -4,10 +4,13 @@ channels:
 dependencies:
   - pangeo-notebook==2022.02.04
   - xarray
+  - netcdf4
+  - aiohttp
   - gcsfs
   - intake
   - intake-xarray
   - zarr
+  - matplotlib
   - cartopy
   - cmocean
   - hvplot
