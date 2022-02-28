@@ -1,1 +1,1 @@
-FROM pangeo/base-image:2022.02.04
+FROM pangeo/ml-notebook:2022.02.04

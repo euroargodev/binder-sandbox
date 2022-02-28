@@ -15,6 +15,3 @@ dependencies:
   - seaborn
   - dask-ml
   - argopy
-  - pip
-  - pip:
-    - git+http://github.com/euroargodev/OSnet-GulfStream.git
