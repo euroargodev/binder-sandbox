@@ -15,7 +15,10 @@ Binder jupyterhub instances are created using the following Pangeo docker images
 
 | branch | Pangeo image |
 |:---------:|:-------|
-| main | pangeo/pangeo-notebook:latest |
+| main | pangeo/pangeo-notebook:latest, [open env. here](https://github.com/pangeo-data/pangeo-docker-images/blob/master/pangeo-notebook/environment.yml) | 
 
 List of images:
 https://hub.docker.com/u/pangeo
+
+More on Pangeo images:
+https://github.com/pangeo-data/pangeo-docker-images
