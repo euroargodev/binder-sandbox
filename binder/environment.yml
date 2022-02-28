@@ -2,7 +2,7 @@ name: myenv
 channels:
   - conda-forge
 dependencies:
-  - pangeo-notebook==2022.02.04
+  - ml-notebook==2022.02.04
   - xarray
   - netcdf4
   - aiohttp
