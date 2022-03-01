@@ -7,6 +7,4 @@ jupyter labextension install --clean \
                             dask-labextension \
                             @pyviz/jupyterlab_pyviz
 
-conda install cmocean argopy
-
 #EOF
