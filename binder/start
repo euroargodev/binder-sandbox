@@ -2,7 +2,7 @@
 
 # ==== ONLY EDIT WITHIN THIS BLOCK =====
 
-export PANGEO_ENV="BINDER_TEMPLATE"
+export PANGEO_ENV="ml-notebook"
 
 # ==== ONLY EDIT WITHIN THIS BLOCK =====
 
