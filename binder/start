@@ -2,9 +2,8 @@
 
 # ==== ONLY EDIT WITHIN THIS BLOCK =====
 
-export PANGEO_ENV="BINDER_TEMPLATE"
+export PANGEO_ENV="pangeo-notebook"
 
 # ==== ONLY EDIT WITHIN THIS BLOCK =====
 
 exec "$@"
-
