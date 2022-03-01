@@ -36,4 +36,6 @@ Source code for Pangeo images: https://github.com/pangeo-data/pangeo-docker-imag
 
 More on Pangeo cloud software environments: https://pangeo.io/cloud#software-environment
 
-How to customise Binder build: https://mybinder.readthedocs.io/en/latest/tutorials/dockerfile.html
+How to customise Binder build: https://repo2docker.readthedocs.io/en/latest/config_files.html
+
+More on Dockerfile used by Binder: https://mybinder.readthedocs.io/en/latest/tutorials/dockerfile.html
