@@ -23,7 +23,10 @@ Euroargodev Binder jupyterhub instances are created using the following Pangeo d
 | pangeo-ml | pangeo/ml-notebook:latest, [see env. here](https://github.com/pangeo-data/pangeo-docker-images/tree/master/ml-notebook/environment.yml) | [cmocean](https://matplotlib.org/cmocean/), [argopy](https://argopy.readthedocs.io/en/latest/)
 
 ## Customise 
-If you want to add a new package:
+
+The simple way: simply raise an issue to ask for a missing package !
+
+The more complex way:
 - [ ] fork this repo,
 - [ ] select the branch you want to update, or create a new one, 
 - [ ] make your changes in the Dockerfile and README.md files, 
