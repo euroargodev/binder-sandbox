@@ -14,6 +14,8 @@ To generate your own "Open with Binder" links and badges, please check: https://
 
 [![Binder](https://img.shields.io/static/v1.svg?logo=Jupyter&label=Binder&message=Open+OSnet+demo&color=blue)](https://mybinder.org/v2/gh/euroargodev/binder-sandbox/pangeo-ml?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Feuroargodev%252FOSnet-GulfStream%26urlpath%3Dlab%252Ftree%252FOSnet-GulfStream%252Fdocs%252Fdemo-predictions.ipynb%26branch%3Dbinder)
 
+If you still want to set-up Binder in your own repo, just use this one as a template by [clicking here](https://github.com/euroargodev/binder-sandbox/generate) !
+
 ## Environments
 Euroargodev Binder jupyterhub instances are created using the following Pangeo docker images:
 
@@ -23,7 +25,10 @@ Euroargodev Binder jupyterhub instances are created using the following Pangeo d
 | pangeo-ml | pangeo/ml-notebook:latest, [see env. here](https://github.com/pangeo-data/pangeo-docker-images/tree/master/ml-notebook/environment.yml) | [cmocean](https://matplotlib.org/cmocean/), [argopy](https://argopy.readthedocs.io/en/latest/)
 
 ## Customise 
-If you want to add a new package:
+
+The simple way: simply raise an issue to ask for a missing package !
+
+The more complex way:
 - [ ] fork this repo,
 - [ ] select the branch you want to update, or create a new one, 
 - [ ] make your changes in the Dockerfile and README.md files, 
