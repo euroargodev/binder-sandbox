@@ -23,7 +23,7 @@ Euroargodev Binder jupyterhub instances are created using the following Pangeo d
 |:---------:|:-------|:-------|
 | main | [pangeo/pangeo-notebook:latest](https://github.com/pangeo-data/pangeo-docker-images/tree/master/pangeo-notebook/environment.yml) | [cmocean](https://matplotlib.org/cmocean/)
 | pangeo-ml | [pangeo/ml-notebook:latest](https://github.com/pangeo-data/pangeo-docker-images/tree/master/ml-notebook/environment.yml) | [cmocean](https://matplotlib.org/cmocean/)
-| virtual-fleet | [pangeo/pangeo-notebook:latest](https://github.com/pangeo-data/pangeo-docker-images/tree/master/ml-notebook/environment.yml) | [cmocean](https://matplotlib.org/cmocean/), cgen, pymbolic, progressbar, [parcels](https://github.com/OceanParcels/parcels)
+| virtual-fleet | [pangeo/pangeo-notebook:latest](https://github.com/pangeo-data/pangeo-docker-images/tree/master/ml-notebook/environment.yml) | [cmocean](https://matplotlib.org/cmocean/), [pyxpcm](https://github.com/obidam/pyxpcm/), [parcels](https://github.com/OceanParcels/parcels), cgen, pymbolic, progressbar, 
 
 Note that all Pangeo images [come with argopy installed](https://github.com/pangeo-data/pangeo-docker-images/pull/307).
 
