@@ -21,10 +21,13 @@ Euroargodev Binder jupyterhub instances are created using the following Pangeo d
 
 | branch | Pangeo image | Euroargodev additional packages |
 |:---------:|:-------|:-------|
-| main | pangeo/pangeo-notebook:latest, [see env. here](https://github.com/pangeo-data/pangeo-docker-images/tree/master/pangeo-notebook/environment.yml) | [cmocean](https://matplotlib.org/cmocean/), [argopy](https://argopy.readthedocs.io/en/latest/)
-| pangeo-ml | pangeo/ml-notebook:latest, [see env. here](https://github.com/pangeo-data/pangeo-docker-images/tree/master/ml-notebook/environment.yml) | [cmocean](https://matplotlib.org/cmocean/), [argopy](https://argopy.readthedocs.io/en/latest/)
+| main | [pangeo/pangeo-notebook:latest](https://github.com/pangeo-data/pangeo-docker-images/tree/master/pangeo-notebook/environment.yml) | [cmocean](https://matplotlib.org/cmocean/)
+| pangeo-ml | [pangeo/ml-notebook:latest](https://github.com/pangeo-data/pangeo-docker-images/tree/master/ml-notebook/environment.yml) | [cmocean](https://matplotlib.org/cmocean/)
+| virtual-fleet | [pangeo/pangeo-notebook:latest](https://github.com/pangeo-data/pangeo-docker-images/tree/master/ml-notebook/environment.yml) | [cmocean](https://matplotlib.org/cmocean/), [pyxpcm](https://github.com/obidam/pyxpcm/), [parcels](https://github.com/OceanParcels/parcels), cgen, pymbolic, progressbar, 
 
-## Customise 
+Note that all Pangeo images [come with argopy installed](https://github.com/pangeo-data/pangeo-docker-images/pull/307).
+
+## How to customise an environment for a project ? 
 
 The simple way: simply raise an issue to ask for a missing package !
 
