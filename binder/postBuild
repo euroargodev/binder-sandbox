@@ -1,4 +1,14 @@
 #!/bin/bash
+set -e
+
+wget https://raw.githubusercontent.com/obidam/ds2-2025/main/binder/matplotlib-fonts.zip
+mkdir /home/jovyan/.cache
+mkdir /home/jovyan/.cache/matplotlib
+unzip matplotlib-fonts.zip -d /home/jovyan/.cache/matplotlib
+mkdir /home/jovyan/.matplotlib
+unzip matplotlib-fonts.zip -d /home/jovyan/.matplotlib
+
+jupyter lab clean
 
 jupyter serverextension enable --py nbgitpuller --sys-prefix
 
